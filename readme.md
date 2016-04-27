@@ -2,7 +2,10 @@
 
 This is a Laravel example of an OAuth 2.0 integration with GeekieID Connect.
 
-## Relevant files:
+## Live demo
+[http://geekieid-connect-ex-laravel.herokuapp.com](http://geekieid-connect-ex-laravel.herokuapp.com)
+
+## Relevant files
 
 - **app/Http/routes.php:** Routes definitions.
 - **app/Http/Controllers/HomeController.php:** Controller that handles requests related to the first page of the app. Uses *logged* or *notlogged* views depending if the user is logged in or not. If the user is logged in, also fetches the name of the user (accessing the Geekie API using an Access Token) in order to populate the *logged* view.
@@ -10,7 +13,7 @@ This is a Laravel example of an OAuth 2.0 integration with GeekieID Connect.
 - **app/config/constants.php:** Contains some constants such as the **client_id** registered with Geekie.
 - **resources/views/logged.blade.php** and **resources/views/logged.blade.php:** The views.
 
-## Running the example:
+## Running the example
 
 1. Request a local development **client_id** (you'll have to specify the exact **redirect_uri** for local development, including the port - see step 4).
 2. Edit **app/config/constants.php** (set your **client_id**).
