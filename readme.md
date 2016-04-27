@@ -12,7 +12,7 @@ This is a Laravel example of an OAuth 2.0 integration with GeekieID Connect.
 
 ## Running the example:
 
-1) Request a local development **client_id** (you'll have to specify the exact **redirect_uri** for local development, including the port - see step 4).
-2) Edit **app/config/constants.php** (set your **client_id**).
-3) Run `php composer.phar install` to install the dependencies.
-4) Run: `php artisan serve --port=3000`. In this case, the value of **redirect_uri** should be `http://localhost:3000/oauth2callback`.
+1. Request a local development **client_id** (you'll have to specify the exact **redirect_uri** for local development, including the port - see step 4).
+2. Edit **app/config/constants.php** (set your **client_id**).
+3. Run `php composer.phar install` to install the dependencies.
+4. Run: `php artisan serve --port=3000`. In this case, the value of **redirect_uri** should be `http://localhost:3000/oauth2callback`.
